@@ -1,5 +1,5 @@
 {
-  "name": "openblock-link",
+  "name": "robopro-link",
   "version": "0.2.0",
   "description": "Porvide local hardware function to openblock",
   "main": "src/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openblockcc/openblock-link.git"
+    "url": "git+https://github.com/sgologuzov/robopro-link.git"
   },
   "keywords": [
     "openblock",
@@ -27,12 +27,12 @@
     "ble",
     "serialport"
   ],
-  "author": "OpenBlock Team",
+  "author": "RoboPro Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/openblockcc/openblock-link/issues"
+    "url": "https://github.com/sgologuzov/robopro-link/issues"
   },
-  "homepage": "https://github.com/openblockcc/openblock-link#readme",
+  "homepage": "https://github.com/sgologuzov/robopro-link#readme",
   "dependencies": {
     "@abandonware/noble": "^1.9.2-10",
     "ansi-string": "^0.2.1",
@@ -42,7 +42,7 @@
     "install": "^0.13.0",
     "js-yaml": "^4.0.0",
     "node-fetch": "^2.6.7",
-    "serialport": "^10.4.0",
+    "serialport": "^12.0.0",
     "ws": "^7.1.1"
   },
   "devDependencies": {
